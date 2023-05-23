@@ -1,0 +1,86 @@
+/* General styles */
+body {
+    background-color: #fafafa;
+    color: #333;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #444;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+/* Form styles */
+form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"], form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+form input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Tarot reading result styles */
+#result {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.tooltip {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #007BFF;
+    text-decoration-thickness: 2px;
+}
+#cards_selection {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#cards_selection .card_container {
+    width: 48%; /* This will give a bit of space between the two columns */
+}

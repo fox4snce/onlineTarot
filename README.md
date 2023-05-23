@@ -1,0 +1,1 @@
+Just a fun little tarot program using GPT.
